@@ -178,3 +178,22 @@ for(let i=1; i<=12; i++){
     }
 }
 */
+//EXERCICIO 02
+/*
+let a = 1, b = -5, c = 6;
+let delta = b ** 2 - 4 * a * c;
+tela.defCor('darkBlue')
+tela.escreve(new Coords(50,40), 'Equação: ax² + bx + c = 0')
+tela.escreve(new Coords(50,80), 'a = '+a)
+tela.escreve(new Coords(50,120), 'b = '+b)
+tela.escreve(new Coords(50,160), 'c = '+c)
+if(delta > 0){
+    let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+    tela.escreve(new Coords(50,200), 'Raízes: '+x1+' e '+x2)
+}else if(delta < 0){
+    tela.escreve(new Coords(50,200), 'Não possui raiz')
+}else{
+    tela.escreve(new Coords(50,200), 'Delta é zero')
+}
+*/
