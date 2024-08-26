@@ -115,7 +115,7 @@ let iniciaTemporizador = function (fps, onoff) {
 }
 
 // ISTO AQUI É APENAS DEMONSTRAÇÃO - REMOVER QUANDO FOR DESENVOLVER ALGO
-
+/*
 function desenhaTela() {
     tela.cls();
     tela.defCor('blue');
@@ -148,7 +148,7 @@ function desenhaTela() {
     tela.desenhaLinha(v4, w4);
 
 }
-
+*/
 
 
 
@@ -156,6 +156,25 @@ function desenhaTela() {
 // ============  ARENA DE TESTES ======================
 tela = new Tela();
 tela.cls();
+
+/*
 let t = 0;
 
 iniciaTemporizador(30, false);
+*/
+
+/* EXERCICIO 01
+tela.defCor('darkblue');
+tela.escreve(new Coords(80,40), 'Tabuada cartesiana');
+
+for(let i=1; i<=12; i++){
+    for(let j=1; j<=12; j++){
+        if(i == j){
+            tela.defCor('darkred');
+        }else{
+            tela.defCor('darkblue')
+        }
+        tela.escreve(new Coords(j*60, i*35 + 50), i * j);
+    }
+}
+*/
