@@ -197,3 +197,25 @@ if(delta > 0){
     tela.escreve(new Coords(50,200), 'Delta é zero')
 }
 */
+//EXERCICIO 03
+/*
+let n1 = 9, n2 = 8
+let resultado
+tela.defCor('darkBlue');
+tela.escreve(new Coords(50,40), 'Nota da Unidade 1: '+n1)
+tela.escreve(new Coords(50,80), 'Nota da Unidade 2: '+n2)
+
+switch(true){
+    case (n1+n2)/2 < 3:
+        resultado = 'reprovado'
+        break
+    case (n1+n2)/2 > 6:
+        resultado = 'aprovado'
+        break
+    default:
+        resultado = 'apto à Prova Final'
+        break
+}
+
+tela.escreve(new Coords(50,120), 'O aluno está '+resultado)
+*/
